@@ -1,0 +1,56 @@
+[
+  {
+    "strategy": "BTC_logreg_funding_net",
+    "our_sharpe": -0.3092324258736396,
+    "qs_sharpe": -0.3092324258736396,
+    "our_sortino": -0.41165808516601327,
+    "qs_sortino": -0.41165808516601327,
+    "our_daily_max_drawdown": -0.09024655827677486,
+    "qs_daily_max_drawdown": -0.09024655827677475
+  },
+  {
+    "strategy": "BTC_xgb_funding_net",
+    "our_sharpe": -0.42167940586127844,
+    "qs_sharpe": -0.42167940586127844,
+    "our_sortino": -0.5702026908193973,
+    "qs_sortino": -0.5702026908193973,
+    "our_daily_max_drawdown": -0.08446579639488261,
+    "qs_daily_max_drawdown": -0.0844657963948825
+  },
+  {
+    "strategy": "ETH_logreg_funding_net",
+    "our_sharpe": -0.9019965064536217,
+    "qs_sharpe": -0.9019965064536217,
+    "our_sortino": -1.212834943915475,
+    "qs_sortino": -1.212834943915475,
+    "our_daily_max_drawdown": -0.16626152139294315,
+    "qs_daily_max_drawdown": -0.16626152139294303
+  },
+  {
+    "strategy": "ETH_xgb_funding_net",
+    "our_sharpe": -0.4607458173988159,
+    "qs_sharpe": -0.4607458173988159,
+    "our_sortino": -0.6415525348460261,
+    "qs_sortino": -0.6415525348460261,
+    "our_daily_max_drawdown": -0.13708151838394655,
+    "qs_daily_max_drawdown": -0.13708151838394655
+  },
+  {
+    "strategy": "SOL_logreg_funding_net",
+    "our_sharpe": -0.30719660126391024,
+    "qs_sharpe": -0.30719660126391024,
+    "our_sortino": -0.3807236422458894,
+    "qs_sortino": -0.38072364224588945,
+    "our_daily_max_drawdown": -0.12750314156785947,
+    "qs_daily_max_drawdown": -0.12750314156785947
+  },
+  {
+    "strategy": "SOL_xgb_funding_net",
+    "our_sharpe": -0.1512214389408513,
+    "qs_sharpe": -0.1512214389408513,
+    "our_sortino": -0.22579617013944334,
+    "qs_sortino": -0.22579617013944334,
+    "our_daily_max_drawdown": -0.1289120855302356,
+    "qs_daily_max_drawdown": -0.1289120855302356
+  }
+]

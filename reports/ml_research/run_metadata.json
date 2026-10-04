@@ -1,0 +1,63 @@
+{
+  "config": {
+    "assets": [
+      "BTC",
+      "ETH",
+      "SOL"
+    ],
+    "train_months": 12,
+    "embargo_hours": 8,
+    "first_test": "2022-01-01",
+    "end_test_exclusive": "2026-09-01",
+    "simple_holdout_cutoff": "2025-09-01",
+    "random_state": 42,
+    "logreg": {
+      "C": 1.0,
+      "max_iter": 2000
+    },
+    "xgboost": {
+      "n_estimators": 150,
+      "max_depth": 3,
+      "learning_rate": 0.03,
+      "min_child_weight": 10,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8,
+      "reg_lambda": 5,
+      "n_jobs": 2
+    },
+    "strategy": {
+      "probability_threshold": 0.55,
+      "entry_equity_fraction": 0.1,
+      "initial_capital": 10000,
+      "fee_per_side": 0.0005,
+      "slippage_per_side": 0.0003
+    },
+    "window_sensitivity": {
+      "shorter": {
+        "24h": "24h",
+        "2d": "2D",
+        "5d": "5D"
+      },
+      "longer": {
+        "48h": "48h",
+        "5d": "5D",
+        "14d": "14D"
+      }
+    }
+  },
+  "input_sha256": {
+    "data/processed/BTC_USDT_USDT/training_samples.parquet": "ce486ef99a8d7450004daa52d0eea413f9cf831411919fc8b71844a5ae21f133",
+    "data/processed/ETH_USDT_USDT/training_samples.parquet": "3df878a61fe8adc7f0545f0fe0b45facc60a60e9a90bff48a23e1aa9ba64a0b6",
+    "data/processed/SOL_USDT_USDT/training_samples.parquet": "df65ab566044e395f3132dbe435afdb30ef238362af9c5720158a0ffe0d6cf8d",
+    "data/cache/BTC_SPOT/ohlcv.parquet": "27689e165b97f7bd9f84d42356f1199182bf38f3865c87612fccd5649853f596"
+  },
+  "versions": {
+    "scikit-learn": "1.9.1",
+    "xgboost": "3.4.1",
+    "quantstats": "0.0.81",
+    "pandas": "3.0.5",
+    "numpy": "2.5.3"
+  },
+  "model_selection": "none; all fixed variants retained",
+  "SOL_status": "monthly gaps repaired from verified daily 8h archives; provenance retained; funding interval anomaly resets funding statistics"
+}

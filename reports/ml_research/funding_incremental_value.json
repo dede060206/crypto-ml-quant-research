@@ -1,0 +1,56 @@
+[
+  {
+    "asset": "BTC",
+    "comparison": "logreg_funding minus logreg_price",
+    "mean_monthly_logloss_delta": 0.0056412872220785604,
+    "month_block_bootstrap_95pct": [
+      0.0018780294780787626,
+      0.0104395371619565
+    ]
+  },
+  {
+    "asset": "BTC",
+    "comparison": "xgb_funding minus xgb_price",
+    "mean_monthly_logloss_delta": 0.0001748821565083095,
+    "month_block_bootstrap_95pct": [
+      -0.004226804684315409,
+      0.004512870817312174
+    ]
+  },
+  {
+    "asset": "ETH",
+    "comparison": "logreg_funding minus logreg_price",
+    "mean_monthly_logloss_delta": 0.006556485573427057,
+    "month_block_bootstrap_95pct": [
+      -1.8056109235835815e-05,
+      0.01570685759943791
+    ]
+  },
+  {
+    "asset": "ETH",
+    "comparison": "xgb_funding minus xgb_price",
+    "mean_monthly_logloss_delta": 0.001476094126701355,
+    "month_block_bootstrap_95pct": [
+      -0.0021718766008104596,
+      0.00521808455565146
+    ]
+  },
+  {
+    "asset": "SOL",
+    "comparison": "logreg_funding minus logreg_price",
+    "mean_monthly_logloss_delta": 0.03712153863137908,
+    "month_block_bootstrap_95pct": [
+      0.0010477074164239651,
+      0.10573844713234129
+    ]
+  },
+  {
+    "asset": "SOL",
+    "comparison": "xgb_funding minus xgb_price",
+    "mean_monthly_logloss_delta": 0.0003336636083466666,
+    "month_block_bootstrap_95pct": [
+      -0.003339917345770768,
+      0.004164323104279382
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+symbols: ["BTC/USDT:USDT", "ETH/USDT:USDT", "SOL/USDT:USDT"]
+start: "2021-01-01T00:00:00Z"
+end: null  # exclusive; null freezes current UTC time at run start
+timeframe: "8h"
+cache_dir: "data/cache"
+archive_dir: "data/raw_archive"
+research_dataset:
+  output_dir: "data/processed"
+  funding_publication_lag_ms: 60000
+  horizon_bars: 3
+  fee_per_side: 0.0005
+  slippage_per_side: 0.0003
+  training_symbols: ["BTC/USDT:USDT", "ETH/USDT:USDT", "SOL/USDT:USDT"]

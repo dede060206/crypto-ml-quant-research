@@ -1,0 +1,326 @@
+{
+  "BTC_dummy": {
+    "n": 5108,
+    "positive_fraction": 0.466523101018011,
+    "roc_auc": 0.5055571767912622,
+    "average_precision": 0.4715804213652149,
+    "log_loss": 0.691662353853717,
+    "brier": 0.2492552536697849,
+    "balanced_accuracy_at_05": 0.5045879259433218
+  },
+  "BTC_logreg_price": {
+    "n": 5108,
+    "positive_fraction": 0.466523101018011,
+    "roc_auc": 0.513421136721502,
+    "average_precision": 0.4950121659093576,
+    "log_loss": 0.6944948519485876,
+    "brier": 0.2506304433953869,
+    "balanced_accuracy_at_05": 0.5162824594701767
+  },
+  "BTC_logreg_funding": {
+    "n": 5108,
+    "positive_fraction": 0.466523101018011,
+    "roc_auc": 0.5123845896198993,
+    "average_precision": 0.49167653452337234,
+    "log_loss": 0.7000868086241284,
+    "brier": 0.2523557275456484,
+    "balanced_accuracy_at_05": 0.5135139963117957
+  },
+  "BTC_xgb_price": {
+    "n": 5108,
+    "positive_fraction": 0.466523101018011,
+    "roc_auc": 0.5061666159763154,
+    "average_precision": 0.48109135227056216,
+    "log_loss": 0.7089545726776123,
+    "brier": 0.25737401843070984,
+    "balanced_accuracy_at_05": 0.5051406945989751
+  },
+  "BTC_xgb_funding": {
+    "n": 5108,
+    "positive_fraction": 0.466523101018011,
+    "roc_auc": 0.5078847493907533,
+    "average_precision": 0.48324888371995095,
+    "log_loss": 0.7091697454452515,
+    "brier": 0.2574141323566437,
+    "balanced_accuracy_at_05": 0.5031503732478142
+  },
+  "BTC_logreg_z_24h": {
+    "n": 5108,
+    "positive_fraction": 0.466523101018011,
+    "roc_auc": 0.5144700035034091,
+    "average_precision": 0.49367595147434706,
+    "log_loss": 0.6969703875947068,
+    "brier": 0.2516137001021193,
+    "balanced_accuracy_at_05": 0.5183865838681486
+  },
+  "BTC_logreg_z_3d": {
+    "n": 5108,
+    "positive_fraction": 0.466523101018011,
+    "roc_auc": 0.5125798565527224,
+    "average_precision": 0.4939521441204267,
+    "log_loss": 0.6968993366931676,
+    "brier": 0.2516813381897697,
+    "balanced_accuracy_at_05": 0.5171013332204029
+  },
+  "BTC_logreg_z_7d": {
+    "n": 5108,
+    "positive_fraction": 0.466523101018011,
+    "roc_auc": 0.511720404855494,
+    "average_precision": 0.49483580200979643,
+    "log_loss": 0.6988181734005949,
+    "brier": 0.25197777329278526,
+    "balanced_accuracy_at_05": 0.5139591217607903
+  },
+  "BTC_logreg_windows_shorter": {
+    "n": 5108,
+    "positive_fraction": 0.466523101018011,
+    "roc_auc": 0.5109816860252476,
+    "average_precision": 0.49052779871371166,
+    "log_loss": 0.6984694336127251,
+    "brier": 0.2522812786955068,
+    "balanced_accuracy_at_05": 0.5135377886943834
+  },
+  "BTC_xgb_windows_shorter": {
+    "n": 5108,
+    "positive_fraction": 0.466523101018011,
+    "roc_auc": 0.5087397352038715,
+    "average_precision": 0.4839279933884613,
+    "log_loss": 0.7097015380859375,
+    "brier": 0.2576306164264679,
+    "balanced_accuracy_at_05": 0.5052485687996396
+  },
+  "BTC_logreg_windows_longer": {
+    "n": 5108,
+    "positive_fraction": 0.466523101018011,
+    "roc_auc": 0.5165059846696978,
+    "average_precision": 0.49579972458389965,
+    "log_loss": 0.701425008670431,
+    "brier": 0.25184920646373327,
+    "balanced_accuracy_at_05": 0.5149309135427935
+  },
+  "BTC_xgb_windows_longer": {
+    "n": 5108,
+    "positive_fraction": 0.466523101018011,
+    "roc_auc": 0.511672589096313,
+    "average_precision": 0.4849653060867573,
+    "log_loss": 0.7079433798789978,
+    "brier": 0.2568320631980896,
+    "balanced_accuracy_at_05": 0.5093914462919688
+  },
+  "ETH_dummy": {
+    "n": 5108,
+    "positive_fraction": 0.4768989819890368,
+    "roc_auc": 0.4963264665250779,
+    "average_precision": 0.4751562013695419,
+    "log_loss": 0.6932605746408764,
+    "brier": 0.25005481613825864,
+    "balanced_accuracy_at_05": 0.49167797410105896
+  },
+  "ETH_logreg_price": {
+    "n": 5108,
+    "positive_fraction": 0.4768989819890368,
+    "roc_auc": 0.49953387559855655,
+    "average_precision": 0.4873992287204656,
+    "log_loss": 0.6989488646355259,
+    "brier": 0.2527370857589803,
+    "balanced_accuracy_at_05": 0.4967383582588517
+  },
+  "ETH_logreg_funding": {
+    "n": 5108,
+    "positive_fraction": 0.4768989819890368,
+    "roc_auc": 0.5060331922362172,
+    "average_precision": 0.4884921060405071,
+    "log_loss": 0.7053077683743334,
+    "brier": 0.25401215182730713,
+    "balanced_accuracy_at_05": 0.5042743945606324
+  },
+  "ETH_xgb_price": {
+    "n": 5108,
+    "positive_fraction": 0.4768989819890368,
+    "roc_auc": 0.5174563895607799,
+    "average_precision": 0.49263097091102837,
+    "log_loss": 0.706679105758667,
+    "brier": 0.25625717639923096,
+    "balanced_accuracy_at_05": 0.5096180791127105
+  },
+  "ETH_xgb_funding": {
+    "n": 5108,
+    "positive_fraction": 0.4768989819890368,
+    "roc_auc": 0.5140964223031769,
+    "average_precision": 0.4922607529188332,
+    "log_loss": 0.7082096338272095,
+    "brier": 0.25698569416999817,
+    "balanced_accuracy_at_05": 0.5132226310924948
+  },
+  "ETH_logreg_z_24h": {
+    "n": 5108,
+    "positive_fraction": 0.4768989819890368,
+    "roc_auc": 0.5041839043587701,
+    "average_precision": 0.4896884497538778,
+    "log_loss": 0.7008198390904267,
+    "brier": 0.25360959554780055,
+    "balanced_accuracy_at_05": 0.5044679729211528
+  },
+  "ETH_logreg_z_3d": {
+    "n": 5108,
+    "positive_fraction": 0.4768989819890368,
+    "roc_auc": 0.5029465391876347,
+    "average_precision": 0.4887816769935406,
+    "log_loss": 0.7008982947509164,
+    "brier": 0.2536077105306898,
+    "balanced_accuracy_at_05": 0.5030668343116722
+  },
+  "ETH_logreg_z_7d": {
+    "n": 5108,
+    "positive_fraction": 0.4768989819890368,
+    "roc_auc": 0.5018611176661456,
+    "average_precision": 0.4860862099244838,
+    "log_loss": 0.7058992130577855,
+    "brier": 0.25412454664724127,
+    "balanced_accuracy_at_05": 0.5033264751285607
+  },
+  "ETH_logreg_windows_shorter": {
+    "n": 5108,
+    "positive_fraction": 0.4768989819890368,
+    "roc_auc": 0.5084092897947947,
+    "average_precision": 0.4924108505798466,
+    "log_loss": 0.701666096704123,
+    "brier": 0.25323562208678924,
+    "balanced_accuracy_at_05": 0.5046240646785247
+  },
+  "ETH_xgb_windows_shorter": {
+    "n": 5108,
+    "positive_fraction": 0.4768989819890368,
+    "roc_auc": 0.5107732502974347,
+    "average_precision": 0.48818176292965487,
+    "log_loss": 0.7092637419700623,
+    "brier": 0.25749868154525757,
+    "balanced_accuracy_at_05": 0.5108016725170349
+  },
+  "ETH_logreg_windows_longer": {
+    "n": 5108,
+    "positive_fraction": 0.4768989819890368,
+    "roc_auc": 0.5032677870859266,
+    "average_precision": 0.4902351488483386,
+    "log_loss": 0.7030113275044506,
+    "brier": 0.2538718309165715,
+    "balanced_accuracy_at_05": 0.5015464760134902
+  },
+  "ETH_xgb_windows_longer": {
+    "n": 5108,
+    "positive_fraction": 0.4768989819890368,
+    "roc_auc": 0.5172167979312311,
+    "average_precision": 0.4936432863416632,
+    "log_loss": 0.7079302668571472,
+    "brier": 0.2567864656448364,
+    "balanced_accuracy_at_05": 0.5125220617877546
+  },
+  "SOL_dummy": {
+    "n": 5106,
+    "positive_fraction": 0.4768899334116725,
+    "roc_auc": 0.49948169440265316,
+    "average_precision": 0.47544314300384793,
+    "log_loss": 0.6930946604576226,
+    "brier": 0.24997273621510183,
+    "balanced_accuracy_at_05": 0.49311034866083886
+  },
+  "SOL_logreg_price": {
+    "n": 5106,
+    "positive_fraction": 0.4768899334116725,
+    "roc_auc": 0.5196766240485494,
+    "average_precision": 0.49728480443250683,
+    "log_loss": 0.6953185175403445,
+    "brier": 0.2508425071806527,
+    "balanced_accuracy_at_05": 0.5117361392460045
+  },
+  "SOL_logreg_funding": {
+    "n": 5106,
+    "positive_fraction": 0.4768899334116725,
+    "roc_auc": 0.5241756273365842,
+    "average_precision": 0.49910989121374244,
+    "log_loss": 0.7312863210373803,
+    "brier": 0.25207384144324324,
+    "balanced_accuracy_at_05": 0.512418961897389
+  },
+  "SOL_xgb_price": {
+    "n": 5106,
+    "positive_fraction": 0.4768899334116725,
+    "roc_auc": 0.5147334247146129,
+    "average_precision": 0.49411844097557467,
+    "log_loss": 0.7071484923362732,
+    "brier": 0.25650617480278015,
+    "balanced_accuracy_at_05": 0.5096696820438861
+  },
+  "SOL_xgb_funding": {
+    "n": 5106,
+    "positive_fraction": 0.4768899334116725,
+    "roc_auc": 0.5153590507827245,
+    "average_precision": 0.4896185218862481,
+    "log_loss": 0.7075571417808533,
+    "brier": 0.2566905915737152,
+    "balanced_accuracy_at_05": 0.511524342758213
+  },
+  "SOL_logreg_z_24h": {
+    "n": 5106,
+    "positive_fraction": 0.4768899334116725,
+    "roc_auc": 0.5270162372182164,
+    "average_precision": 0.5001399157236248,
+    "log_loss": 0.7303534796540364,
+    "brier": 0.25156898376708764,
+    "balanced_accuracy_at_05": 0.517720639279446
+  },
+  "SOL_logreg_z_3d": {
+    "n": 5106,
+    "positive_fraction": 0.4768899334116725,
+    "roc_auc": 0.5273795585254044,
+    "average_precision": 0.5008484006013816,
+    "log_loss": 0.73064143806956,
+    "brier": 0.2516003929304753,
+    "balanced_accuracy_at_05": 0.5167120882364925
+  },
+  "SOL_logreg_z_7d": {
+    "n": 5106,
+    "positive_fraction": 0.4768899334116725,
+    "roc_auc": 0.5258807620368442,
+    "average_precision": 0.4995951802849713,
+    "log_loss": 0.7304004016763197,
+    "brier": 0.2516868639122949,
+    "balanced_accuracy_at_05": 0.5116759444547374
+  },
+  "SOL_logreg_windows_shorter": {
+    "n": 5106,
+    "positive_fraction": 0.4768899334116725,
+    "roc_auc": 0.5232005178443346,
+    "average_precision": 0.4984522082908801,
+    "log_loss": 0.7324230030654136,
+    "brier": 0.2523179137204205,
+    "balanced_accuracy_at_05": 0.5116635672371206
+  },
+  "SOL_xgb_windows_shorter": {
+    "n": 5106,
+    "positive_fraction": 0.4768899334116725,
+    "roc_auc": 0.5121186798352062,
+    "average_precision": 0.4907218848062653,
+    "log_loss": 0.708336591720581,
+    "brier": 0.25708144903182983,
+    "balanced_accuracy_at_05": 0.5069590713857948
+  },
+  "SOL_logreg_windows_longer": {
+    "n": 5106,
+    "positive_fraction": 0.4768899334116725,
+    "roc_auc": 0.5260694185090912,
+    "average_precision": 0.4983874216802522,
+    "log_loss": 0.731560372964854,
+    "brier": 0.2520106769719191,
+    "balanced_accuracy_at_05": 0.5144962587745632
+  },
+  "SOL_xgb_windows_longer": {
+    "n": 5106,
+    "positive_fraction": 0.4768899334116725,
+    "roc_auc": 0.5136825143741011,
+    "average_precision": 0.4897537547342787,
+    "log_loss": 0.7083830833435059,
+    "brier": 0.2570868134498596,
+    "balanced_accuracy_at_05": 0.5136436914244332
+  }
+}

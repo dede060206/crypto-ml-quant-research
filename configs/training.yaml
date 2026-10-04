@@ -1,0 +1,34 @@
+assets: [BTC, ETH, SOL]
+train_months: 12
+embargo_hours: 8
+first_test: "2022-01-01"
+end_test_exclusive: "2026-09-01"
+simple_holdout_cutoff: "2025-09-01"
+random_state: 42
+logreg:
+  C: 1.0
+  max_iter: 2000
+xgboost:
+  n_estimators: 150
+  max_depth: 3
+  learning_rate: 0.03
+  min_child_weight: 10
+  subsample: 0.8
+  colsample_bytree: 0.8
+  reg_lambda: 5
+  n_jobs: 2
+strategy:
+  probability_threshold: 0.55
+  entry_equity_fraction: 0.1
+  initial_capital: 10000
+  fee_per_side: 0.0005
+  slippage_per_side: 0.0003
+window_sensitivity:
+  shorter:
+    24h: "24h"
+    2d: "2D"
+    5d: "5D"
+  longer:
+    48h: "48h"
+    5d: "5D"
+    14d: "14D"

@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "unit_tests_passed": 34,
+  "end_to_end_command": "./run_research.sh",
+  "end_to_end_exit_code": 0,
+  "assets": [
+    "BTC",
+    "ETH",
+    "SOL"
+  ],
+  "fold_rows": 2016,
+  "models_per_asset": 12,
+  "test_months_per_asset": 56,
+  "quantstats_crosschecked_reports": 6,
+  "SOL_daily_source_patched_bars": 15,
+  "SOL_daily_monthly_overlap_checks": 12,
+  "executed_notebook_outputs": 4,
+  "window_sensitivity": "recomputed real window lengths, identical sample pools, all versions retained",
+  "outstanding_implementation_steps": [],
+  "limitations_documented_in": "reports/ml_research/RESEARCH_REPORT.md"
+}

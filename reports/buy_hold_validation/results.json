@@ -1,0 +1,470 @@
+{
+  "BTC": {
+    "status": "ok",
+    "scenarios": {
+      "price_only_10pct": {
+        "metrics": {
+          "total_return": 0.16985839834188265,
+          "cagr": 0.02806739463081498,
+          "sharpe_daily_365": 0.3394844148258491,
+          "sortino_daily_365": 0.4891222244715844,
+          "max_drawdown": -0.17210472185935954,
+          "max_drawdown_duration_days": 850.6666666666666,
+          "positive_day_fraction": 0.49975833736104397,
+          "trade_win_rate": 1.0,
+          "trade_profit_factor": null,
+          "trade_payoff_ratio": null,
+          "trade_count": 1
+        },
+        "yearly_returns": {
+          "2021": 0.05875711280619478,
+          "2022": -0.096284524674626,
+          "2023": 0.09255207562294943,
+          "2024": 0.16837889179557242,
+          "2025": -0.01670997011152353,
+          "2026": -0.02591298830110933
+        },
+        "accounting": {
+          "units": 0.03435515882218148,
+          "entry_fee": 0.0,
+          "exit_fee": 0.0,
+          "funding_paid_net": 0.0,
+          "funding_events": 0,
+          "slippage_cost": 0.0,
+          "accounting_error": 0.0,
+          "entry_utc": "2021-01-01T07:59:59.999000+00:00",
+          "exit_utc": "2026-08-31T23:59:59.999000+00:00",
+          "trades": 1,
+          "max_exposure_to_equity": 0.3229288331338626
+        }
+      },
+      "execution_costs_10pct": {
+        "metrics": {
+          "total_return": 0.16942697011183383,
+          "cagr": 0.028000488616857888,
+          "sharpe_daily_365": 0.3389565800186178,
+          "sortino_daily_365": 0.4883546690883999,
+          "max_drawdown": -0.17201153315018058,
+          "max_drawdown_duration_days": 850.6666666666666,
+          "positive_day_fraction": 0.49975833736104397,
+          "trade_win_rate": 1.0,
+          "trade_profit_factor": null,
+          "trade_payoff_ratio": null,
+          "trade_count": 1
+        },
+        "yearly_returns": {
+          "2021": 0.0586301848637758,
+          "2022": -0.09621907932757379,
+          "2023": 0.09248246984714581,
+          "2024": 0.16826297875843177,
+          "2025": -0.01670012366113449,
+          "2026": -0.026077077069134758
+        },
+        "accounting": {
+          "units": 0.0343276915198119,
+          "entry_fee": 0.4997501249375313,
+          "exit_fee": 1.347808754936638,
+          "funding_paid_net": 0.0,
+          "funding_events": 0,
+          "slippage_cost": 1.1086880782595276,
+          "accounting_error": 1.8189894035458565e-12,
+          "entry_utc": "2021-01-01T07:59:59.999000+00:00",
+          "exit_utc": "2026-08-31T23:59:59.999000+00:00",
+          "trades": 1,
+          "max_exposure_to_equity": 0.32275397842452463
+        }
+      },
+      "execution_and_funding_proxy_10pct": {
+        "metrics": {
+          "total_return": 0.05305661815767482,
+          "cagr": 0.009163257927576884,
+          "sharpe_daily_365": 0.14066142162304954,
+          "sortino_daily_365": 0.2007606902629547,
+          "max_drawdown": -0.1914657642893104,
+          "max_drawdown_duration_days": 1307.0,
+          "positive_day_fraction": 0.49250845819236344,
+          "trade_win_rate": 1.0,
+          "trade_profit_factor": null,
+          "trade_payoff_ratio": null,
+          "trade_count": 1
+        },
+        "yearly_returns": {
+          "2021": 0.005962934680331822,
+          "2022": -0.10564032279092817,
+          "2023": 0.0889357393241692,
+          "2024": 0.15087096372107234,
+          "2025": -0.034394197001165416,
+          "2026": -0.032772178119746975
+        },
+        "accounting": {
+          "units": 0.0343276915198119,
+          "entry_fee": 0.4997501249375313,
+          "exit_fee": 1.347808754936638,
+          "funding_paid_net": 1163.703519541588,
+          "funding_events": 6206,
+          "slippage_cost": 1.1086880782595276,
+          "accounting_error": 0.0,
+          "entry_utc": "2021-01-01T07:59:59.999000+00:00",
+          "exit_utc": "2026-08-31T23:59:59.999000+00:00",
+          "trades": 1,
+          "max_exposure_to_equity": 0.35146498178021446
+        }
+      },
+      "price_only_100pct_reference": {
+        "metrics": {
+          "total_return": 1.6985839834188265,
+          "cagr": 0.19143554640286342,
+          "sharpe_daily_365": 0.591734268645513,
+          "sortino_daily_365": 0.8738656183308717,
+          "max_drawdown": -0.769661702458634,
+          "max_drawdown_duration_days": 850.6666666666666,
+          "positive_day_fraction": 0.49975833736104397,
+          "trade_win_rate": 1.0,
+          "trade_profit_factor": null,
+          "trade_payoff_ratio": null,
+          "trade_count": 1
+        },
+        "yearly_returns": {
+          "2021": 0.5875711280619464,
+          "2022": -0.6421250900227135,
+          "2023": 1.5586542182662546,
+          "2024": 1.2108262040932076,
+          "2025": -0.06350368630737502,
+          "2026": -0.10339899689755072
+        },
+        "accounting": {
+          "units": 0.3435515882218148,
+          "entry_fee": 0.0,
+          "exit_fee": 0.0,
+          "funding_paid_net": 0.0,
+          "funding_events": 0,
+          "slippage_cost": 0.0,
+          "accounting_error": 0.0,
+          "entry_utc": "2021-01-01T07:59:59.999000+00:00",
+          "exit_utc": "2026-08-31T23:59:59.999000+00:00",
+          "trades": 1,
+          "max_exposure_to_equity": 1.0000000000000002
+        }
+      }
+    },
+    "slippage_sensitivity": {
+      "0": 0.053183411745563625,
+      "0.0002": 0.05309887423575543,
+      "0.0003": 0.05305661815767482,
+      "0.0005": 0.052972131342490236,
+      "0.001": 0.05276106200875019
+    }
+  },
+  "ETH": {
+    "status": "ok",
+    "scenarios": {
+      "price_only_10pct": {
+        "metrics": {
+          "total_return": 0.23413666043512427,
+          "cagr": 0.03781592157565128,
+          "sharpe_daily_365": 0.2824174543848592,
+          "sortino_daily_365": 0.402032501467732,
+          "max_drawdown": -0.3389278589803708,
+          "max_drawdown_duration_days": 1755.3333333333333,
+          "positive_day_fraction": 0.5118414693088449,
+          "trade_win_rate": 1.0,
+          "trade_profit_factor": null,
+          "trade_payoff_ratio": null,
+          "trade_count": 1
+        },
+        "yearly_returns": {
+          "2021": 0.3979842314882549,
+          "2022": -0.24031070851308767,
+          "2023": 0.1387485777553279,
+          "2024": 0.11791918651084798,
+          "2025": -0.03668968226055813,
+          "2026": -0.05240991801556483
+        },
+        "accounting": {
+          "units": 1.3546831396136445,
+          "entry_fee": 0.0,
+          "exit_fee": 0.0,
+          "funding_paid_net": 0.0,
+          "funding_events": 0,
+          "slippage_cost": 0.0,
+          "accounting_error": 0.0,
+          "entry_utc": "2021-01-01T07:59:59.999000+00:00",
+          "exit_utc": "2026-08-31T23:59:59.999000+00:00",
+          "trades": 1,
+          "max_exposure_to_equity": 0.42202100644043233
+        }
+      },
+      "execution_costs_10pct": {
+        "metrics": {
+          "total_return": 0.2336024692115355,
+          "cagr": 0.03773664706077784,
+          "sharpe_daily_365": 0.2820924123907688,
+          "sortino_daily_365": 0.4015646003590182,
+          "max_drawdown": -0.3387711875059749,
+          "max_drawdown_duration_days": 1755.3333333333333,
+          "positive_day_fraction": 0.5118414693088449,
+          "trade_win_rate": 1.0,
+          "trade_profit_factor": null,
+          "trade_payoff_ratio": null,
+          "trade_count": 1
+        },
+        "yearly_returns": {
+          "2021": 0.39758608797995776,
+          "2022": -0.24018698247331727,
+          "2023": 0.1386545600172393,
+          "2024": 0.11784901291307115,
+          "2025": -0.036670150109615274,
+          "2026": -0.0525860474851112
+        },
+        "accounting": {
+          "units": 1.3536000565284134,
+          "entry_fee": 0.4997501249375313,
+          "exit_fee": 1.6688467694423996,
+          "funding_paid_net": 0.0,
+          "funding_events": 0,
+          "slippage_cost": 1.3013686911471423,
+          "accounting_error": -1.8189894035458565e-12,
+          "entry_utc": "2021-01-01T07:59:59.999000+00:00",
+          "exit_utc": "2026-08-31T23:59:59.999000+00:00",
+          "trades": 1,
+          "max_exposure_to_equity": 0.42182592465074426
+        }
+      },
+      "execution_and_funding_proxy_10pct": {
+        "metrics": {
+          "total_return": 0.01117077361897878,
+          "cagr": 0.0019619900661111966,
+          "sharpe_daily_365": 0.1252942656313491,
+          "sortino_daily_365": 0.17774343407636334,
+          "max_drawdown": -0.3860900620756973,
+          "max_drawdown_duration_days": 1755.3333333333333,
+          "positive_day_fraction": 0.5074915418076366,
+          "trade_win_rate": 1.0,
+          "trade_profit_factor": null,
+          "trade_payoff_ratio": null,
+          "trade_count": 1
+        },
+        "yearly_returns": {
+          "2021": 0.28327345001632964,
+          "2022": -0.2651752361231102,
+          "2023": 0.13374947363228018,
+          "2024": 0.0797259691180372,
+          "2025": -0.06166359452848391,
+          "2026": -0.06646134854753016
+        },
+        "accounting": {
+          "units": 1.3536000565284134,
+          "entry_fee": 0.4997501249375313,
+          "exit_fee": 1.6688467694423996,
+          "funding_paid_net": 2224.316955925569,
+          "funding_events": 6206,
+          "slippage_cost": 1.3013686911471423,
+          "accounting_error": 0.0,
+          "entry_utc": "2021-01-01T07:59:59.999000+00:00",
+          "exit_utc": "2026-08-31T23:59:59.999000+00:00",
+          "trades": 1,
+          "max_exposure_to_equity": 0.4870950445839993
+        }
+      },
+      "price_only_100pct_reference": {
+        "metrics": {
+          "total_return": 2.3413666043512436,
+          "cagr": 0.23720680752211032,
+          "sharpe_daily_365": 0.6614243563066474,
+          "sortino_daily_365": 0.9851364554023767,
+          "max_drawdown": -0.8031066079840031,
+          "max_drawdown_duration_days": 1755.3333333333333,
+          "positive_day_fraction": 0.5118414693088449,
+          "trade_win_rate": 1.0,
+          "trade_profit_factor": null,
+          "trade_payoff_ratio": null,
+          "trade_count": 1
+        },
+        "yearly_returns": {
+          "2021": 3.97984231488255,
+          "2022": -0.674620921540144,
+          "2023": 0.9094139286012877,
+          "2024": 0.46094095496639453,
+          "2025": -0.10974443815055568,
+          "2026": -0.16963035281443573
+        },
+        "accounting": {
+          "units": 13.546831396136445,
+          "entry_fee": 0.0,
+          "exit_fee": 0.0,
+          "funding_paid_net": 0.0,
+          "funding_events": 0,
+          "slippage_cost": 0.0,
+          "accounting_error": 0.0,
+          "entry_utc": "2021-01-01T07:59:59.999000+00:00",
+          "exit_utc": "2026-08-31T23:59:59.999000+00:00",
+          "trades": 1,
+          "max_exposure_to_equity": 1.0000000000000002
+        }
+      }
+    },
+    "slippage_sensitivity": {
+      "0": 0.011304265658292234,
+      "0.0002": 0.011215262067726606,
+      "0.0003": 0.01117077361897878,
+      "0.0005": 0.011081823401213553,
+      "0.001": 0.010859603364167913
+    }
+  },
+  "SOL": {
+    "status": "ok",
+    "scenarios": {
+      "price_only_10pct": {
+        "metrics": {
+          "total_return": 6.27889391218183,
+          "cagr": 0.41939958258103016,
+          "sharpe_daily_365": 0.838459418942358,
+          "sortino_daily_365": 1.2643866328485946,
+          "max_drawdown": -0.9133636996309209,
+          "max_drawdown_duration_days": 1111.3333333333333,
+          "positive_day_fraction": 0.500241662638956,
+          "trade_win_rate": 1.0,
+          "trade_profit_factor": null,
+          "trade_payoff_ratio": null,
+          "trade_count": 1
+        },
+        "yearly_returns": {
+          "2021": 10.427032885365703,
+          "2022": -0.8672158983439044,
+          "2023": 3.7473010534564892,
+          "2024": 0.7517992817489076,
+          "2025": -0.31719887333787156,
+          "2026": -0.1551871986015182
+        },
+        "accounting": {
+          "units": 619.3100885613427,
+          "entry_fee": 0.0,
+          "exit_fee": 0.0,
+          "funding_paid_net": 0.0,
+          "funding_events": 0,
+          "slippage_cost": 0.0,
+          "accounting_error": 0.0,
+          "entry_utc": "2021-01-01T07:59:59.999000+00:00",
+          "exit_utc": "2026-08-31T23:59:59.999000+00:00",
+          "trades": 1,
+          "max_exposure_to_equity": 0.9491632859597086
+        }
+      },
+      "execution_costs_10pct": {
+        "metrics": {
+          "total_return": 6.268695841908269,
+          "cagr": 0.4190484991558088,
+          "sharpe_daily_365": 0.8381586800219273,
+          "sortino_daily_365": 1.26391587209236,
+          "max_drawdown": -0.9133247791749457,
+          "max_drawdown_duration_days": 1111.3333333333333,
+          "positive_day_fraction": 0.500241662638956,
+          "trade_win_rate": 1.0,
+          "trade_profit_factor": null,
+          "trade_payoff_ratio": null,
+          "trade_count": 1
+        },
+        "yearly_returns": {
+          "2021": 10.418616414441686,
+          "2022": -0.8671612495848842,
+          "2023": 3.7455234009201606,
+          "2024": 0.7517241287909362,
+          "2025": -0.31718077202411177,
+          "2026": -0.15576635302719855
+        },
+        "accounting": {
+          "units": 618.8149437840739,
+          "entry_fee": 0.49975012493753124,
+          "exit_fee": 31.85940891399834,
+          "funding_paid_net": 0.0,
+          "funding_events": 0,
+          "slippage_cost": 19.42114190984703,
+          "accounting_error": 0.0,
+          "entry_utc": "2021-01-01T07:59:59.999000+00:00",
+          "exit_utc": "2026-08-31T23:59:59.999000+00:00",
+          "trades": 1,
+          "max_exposure_to_equity": 0.9491246784182592
+        }
+      },
+      "execution_and_funding_proxy_10pct": {
+        "metrics": {
+          "total_return": 3.926906385069393,
+          "cagr": 0.32494942883444633,
+          "sharpe_daily_365": 0.8014440465255449,
+          "sortino_daily_365": 1.2795592414482229,
+          "max_drawdown": -0.9697603024730314,
+          "max_drawdown_duration_days": 1759.0,
+          "positive_day_fraction": 0.4983083615273079,
+          "trade_win_rate": 1.0,
+          "trade_profit_factor": null,
+          "trade_payoff_ratio": null,
+          "trade_count": 1
+        },
+        "yearly_returns": {
+          "2021": 9.306914922021985,
+          "2022": -0.934836371461828,
+          "2023": 8.226253862685695,
+          "2024": 0.6569970787337991,
+          "2025": -0.39431456051459945,
+          "2026": -0.20777948684460312
+        },
+        "accounting": {
+          "units": 618.8149437840739,
+          "entry_fee": 0.49975012493753124,
+          "exit_fee": 31.85940891399834,
+          "funding_paid_net": 23417.89456838867,
+          "funding_events": 6281,
+          "slippage_cost": 19.42114190984703,
+          "accounting_error": -8.731149137020111e-11,
+          "entry_utc": "2021-01-01T07:59:59.999000+00:00",
+          "exit_utc": "2026-08-31T23:59:59.999000+00:00",
+          "trades": 1,
+          "max_exposure_to_equity": 1.5891457466787338
+        }
+      },
+      "price_only_100pct_reference": {
+        "metrics": {
+          "total_return": 62.788939121818295,
+          "cagr": 1.0817719855054264,
+          "sharpe_daily_365": 1.2135185096040249,
+          "sortino_daily_365": 1.9330466384238634,
+          "max_drawdown": -0.9647435897435898,
+          "max_drawdown_duration_days": 1111.3333333333333,
+          "positive_day_fraction": 0.500241662638956,
+          "trade_win_rate": 1.0,
+          "trade_profit_factor": null,
+          "trade_payoff_ratio": null,
+          "trade_count": 1
+        },
+        "yearly_returns": {
+          "2021": 104.27032885365702,
+          "2022": -0.9413578068008001,
+          "2023": 9.210473515248797,
+          "2024": 0.8591444123484444,
+          "2025": -0.34156008878554056,
+          "2026": -0.1732883859057709
+        },
+        "accounting": {
+          "units": 6193.100885613427,
+          "entry_fee": 0.0,
+          "exit_fee": 0.0,
+          "funding_paid_net": 0.0,
+          "funding_events": 0,
+          "slippage_cost": 0.0,
+          "accounting_error": 0.0,
+          "entry_utc": "2021-01-01T07:59:59.999000+00:00",
+          "exit_utc": "2026-08-31T23:59:59.999000+00:00",
+          "trades": 1,
+          "max_exposure_to_equity": 1.0000000000000002
+        }
+      }
+    },
+    "slippage_sensitivity": {
+      "0": 3.930026212446756,
+      "0.0002": 3.927946119581623,
+      "0.0003": 3.926906385069393,
+      "0.0005": 3.9248275395739087,
+      "0.001": 3.9196340601804636
+    }
+  }
+}
